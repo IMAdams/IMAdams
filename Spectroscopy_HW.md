@@ -4,13 +4,13 @@ The Raman shift, the difference in the incident light and the scattered light, r
 
 2. Calculate the photons emitted per second from an Alexa488 dye pumped at 100 W/cm2.
 
-$$[488nm = C/hz] [488nm * Hz = 3*10^8 m*s^1] [6.14*10^14 Hz]$$
-$$[E = 6.6 * 10^-34 J*s * 6.14*10^14 s^-1 = 3.233*10^-20 J]$$
-$$[100 J*s^1 /3.233*10^20 J =30.9 * 10^20 photons/s^-1/cm^2]$$
+$$488\text{ nm} = \frac{c}{f} \rightarrow 488\times10^{-9}\text{ m} \times f = 3\times10^8\text{ m/s} \rightarrow f = 6.14\times10^{14}\text{ Hz}$$
+$$E = h \cdot f = 6.626\times10^{-34}\text{ J}\cdot\text{s} \times 6.14\times10^{14}\text{ Hz} = 4.068\times10^{-19}\text{ J}$$
+$$\text{Photon flux} = \frac{100\text{ W/cm}^2}{4.068\times10^{-19}\text{ J}} = 2.46\times10^{20}\text{ photons/(s}\cdot\text{cm}^2)$$
 
 3. Use the Perrin equation to explain why the fluorescence anisotropy of fluorescein in solution is nearly zero, whereas for GFP it is not.
 
-The Perrin equation relates rotational diffusion of a flourophore $\frac{\tau}{\theta}}$ to the anisotropy in solution. With faster rotational diffusion, anisotropy drops.
+The Perrin equation relates rotational diffusion of a flourophore $\frac{\tau}{\theta}$ to the anisotropy in solution. With faster rotational diffusion, anisotropy drops.
 
 $$\[ r = \frac{r_0}{1 + \frac{\tau}{\theta}} \]$$
 
