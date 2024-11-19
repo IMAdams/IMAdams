@@ -9,15 +9,15 @@ my1.a
 my1.b
 
 my1.a = 4
-mutable struct MyNewMutableType
+# mutable struct MyNewMutableType
 
-    my3=MyNewMutableType(1,2) 
-    my3.a
-    my3.b
+#     my3=MyNewMutableType(1,2) 
+#     my3.a
+#     my3.b
 
     
-     t = typeof(my3)
-     newmy4 = t(4,5)
+#      t = typeof(my3)
+#      newmy4 = t(4,5)
 
 
 # Abstract types
@@ -60,7 +60,7 @@ function MyNewType2()
     return MyNewType2  
 end
 
-m4 = MyNewType2(1,2)
+# m4 = MyNewType2(1,2)
 
 # Parametric types
 
@@ -88,6 +88,4 @@ struct ParType2{T,U}
     # abstract type cannot have fields. different from an object oriented. 
 
    # Homework : make some functions using types and practice some
-end
-
 end
