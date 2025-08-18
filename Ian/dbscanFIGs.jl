@@ -46,14 +46,12 @@ ax = Axis(fig[1,1],
     limits = (minimum(CDFDict["wt Rest"]),1.0, 0.0, 1.0),
     xminorticksvisible = true, yminorticksvisible = true)
 
-ecdfplot!(ax, CDFDict["wt Rest"][:], label = "EGFR-WT Resting", step = :center, Color = :cyan2, linewidth = 4)
-ecdfplot!(ax, CDFDict["wt +EGF"][:] , label = "EGFR-WT +EGF", step = :center, color = :blue)
-ecdfplot!(ax, CDFDict["L858R Rest"][:] , label = "EGFR-L858R Resting", step = :center, Color = :magenta)
-ecdfplot!(ax, CDFDict["L858R +EGF"][:] , label = "EGFR-L858R +EGF", step = :center, color = :magenta4)
+ecdfplot!(ax, CDFDict["wt Rest"][:]; label = "EGFR-WT Resting", color = :cyan2, linewidth = 4)
+ecdfplot!(ax, CDFDict["wt +EGF"][:]; label = "EGFR-WT +EGF", step = :center, color = :blue)
+ecdfplot!(ax, CDFDict["L858R Rest"][:]; label = "EGFR-L858R Resting", step = :center, Color = :magenta)
+ecdfplot!(ax, CDFDict["L858R +EGF"][:]; label = "EGFR-L858R +EGF", step = :center, color = :magenta4)
 axislegend(ax; position = :lt)
 
 
 fig
-empty!(fig)
-clustsPerPoint[:]
-typeof(cPP_wtRest)
+
