@@ -1,8 +1,4 @@
 [deps]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
-Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
-VideoIO = "d6d074c3-1acf-5d4c-9a43-ef38773959a2"
